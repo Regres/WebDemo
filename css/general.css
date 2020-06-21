@@ -251,9 +251,32 @@ color: #ECEBEB;
 	background-size: cover;
 	text-align: center;
 }
+.under-header0 {
+	height: 30%; /* Full PAge */
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	background: url(../img/intro/under-h.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+.get-p3 {
 
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	background: url(../img/intro/p3.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: left;
+}
+.under-header {
+	height: 20%; /* Full PAge */
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	background: url(../img/intro/under-h.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
 .end-header {
-	height: 50%; /* Full PAge */
+	height: 30%; /* Full PAge */
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;

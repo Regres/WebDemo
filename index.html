@@ -1430,9 +1430,9 @@ myChart.setOption(option);
 	</script>
 
 <br>
-	<div id='part4' class="container">
+	<div id='part4' class="container" style="height:400px;display:table;">
             
-            <div class="col-sm-6 wow fadeInRightBig pull-right"  data-animation-delay="100">   
+            <div class="col-sm-6 wow fadeInRightBig pull-right"  data-animation-delay="100" style="	display: table-cell;vertical-align: middle;padding-top:3%;padding-bottom:3%;">   
                     <p class="lead">
 					</p>
 					
@@ -1903,8 +1903,8 @@ option = {
     },
     visualMap: {
            left: 'left',
-            min: 20,
-            max: 100,
+            min: 0,
+            max: 90,
 			hoverLink:false, 
             inRange: {
                 color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
@@ -1982,11 +1982,11 @@ option = {
 					</ul>
 				</div>      
             
-			<div id="bingtu3" class="pull-left" style="width: 50%; height: 400px;display: table-cell; vertical-align: middle;padding-top:3%;"></div>	
+			<div id="bingtu3" class="pull-left" style="width: 50%; height: 400px;display: table-cell; vertical-align: middle;"><img src="img/表-01.jpg" width="500" height="400" border="0" alt=""></div>	
 	</div>
-	<div class="container" style='display:table;'>
+	<div class="container" style='display:table;height:300px;'>
             
-            <div class="col-sm-6 wow fadeInRightBig pull-right"  data-animation-delay="100" style='display: table-cell;vertical-align: middle;'>   
+            <div class="col-sm-6 wow fadeInRightBig pull-right"  data-animation-delay="100" style='display: table-cell;vertical-align: middle;padding-top:3%;padding-bottom:3%;'>   
                     <p class="lead">
 					</p>
 					
@@ -1996,7 +1996,7 @@ option = {
 					</ul>
 				</div>      
             
-			<div id="zhuzhuangtu4" class="pull-left" style="width: 50%; height: 400px;display: table-cell; vertical-align: middle;padding-top:3%;"></div>	
+			<div id="zhuzhuangtu4" class="pull-left" style="width: 50%; height: 400px;display: table-cell; vertical-align: middle;padding-top:3%;padding-bottom:3%;"></div>	
 	</div>
 	<div class="container">
             
@@ -2077,7 +2077,7 @@ option = {
 	color:['#ef9d47','#1ea499','#d989be','#7d77b7','#4fa9e7','#bfd072','#e35733'],
     title:{
         text:"同性恋报道词云",
-        subtext: 'data-visual.cn',
+        subtext: '数据来源：中国新闻网2009-2019对同性恋的报道',
         left:'center'
     },
     tooltip: {},
@@ -2102,19 +2102,38 @@ option = {
                 shadowColor: '#333'
             }
         },
-        data: [{
-            name: '同性恋报道',
-            value: 4000
-        },
+        data: [
+    {name: '戒同所', value: 4000},
+    {name: '家庭', value: 3200},
+    {name: '孩子', value: 3200},
+    {name: '男友', value: 2700},
+    {name: '性骚扰', value: 2500},
     {name: '婚姻法', value: 2000},
+    {name: '暗恋', value: 1400},
+    {name: '艾滋病', value: 1000},
     {name: '男同性恋', value: 1000},
+    {name: '腐女', value: 819},
     {name: '异性恋', value: 800},
+    {name: '出柜', value: 778},
     {name: '男男恋', value: 700},
     {name: '同志', value: 650},
     {name: '拉拉', value: 600},
     {name: '合法化', value: 590},
-    {name: '同性', value: 500}]
+    {name: '政治正确', value: 508},
+    {name: '同性', value: 500},
+    {name: '直男癌', value: 457},
+    {name: '断背山', value: 375},
+    {name: '污名化', value: 374},
+    {name: '变态', value: 334},
+    {name: '同妻', value: 232},
+    {name: '恐同', value: 231},
+    {name: '单身', value: 225},
+    {name: '性取向', value: 182},
+    {name: '掰弯', value: 173},
+    {name: '污', value: 162}
+]
     }]
+
 };
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
